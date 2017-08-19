@@ -15,8 +15,8 @@
 		BDD22C161F46EAD800F32700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD22C141F46EAD800F32700 /* LaunchScreen.storyboard */; };
 		BDD22C1F1F46EAFB00F32700 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD22C1E1F46EAFB00F32700 /* Person.m */; };
 		BDD22C221F46EB8E00F32700 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD22C211F46EB8E00F32700 /* Son.m */; };
-		BDD36FA91F47C52700856972 /* Person+Extension1.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD36FA81F47C52700856972 /* Person+Extension1.m */; };
 		BDD36FAC1F47C53A00856972 /* Person+Extenson2.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD36FAB1F47C53A00856972 /* Person+Extenson2.m */; };
+		BDD36FAF1F47F50300856972 /* Person+Extension1.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD36FAE1F47F50300856972 /* Person+Extension1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,10 @@
 		BDD22C1E1F46EAFB00F32700 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BDD22C201F46EB8E00F32700 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
 		BDD22C211F46EB8E00F32700 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
-		BDD36FA71F47C52700856972 /* Person+Extension1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+Extension1.h"; path = "../Person+Extension1.h"; sourceTree = "<group>"; };
-		BDD36FA81F47C52700856972 /* Person+Extension1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+Extension1.m"; path = "../Person+Extension1.m"; sourceTree = "<group>"; };
 		BDD36FAA1F47C53A00856972 /* Person+Extenson2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Extenson2.h"; sourceTree = "<group>"; };
 		BDD36FAB1F47C53A00856972 /* Person+Extenson2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Extenson2.m"; sourceTree = "<group>"; };
+		BDD36FAD1F47F50300856972 /* Person+Extension1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+Extension1.h"; sourceTree = "<group>"; };
+		BDD36FAE1F47F50300856972 /* Person+Extension1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+Extension1.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,6 @@
 				BDD22C1E1F46EAFB00F32700 /* Person.m */,
 				BDD22C201F46EB8E00F32700 /* Son.h */,
 				BDD22C211F46EB8E00F32700 /* Son.m */,
-				BDD36FA71F47C52700856972 /* Person+Extension1.h */,
-				BDD36FA81F47C52700856972 /* Person+Extension1.m */,
 				BDD36FAA1F47C53A00856972 /* Person+Extenson2.h */,
 				BDD36FAB1F47C53A00856972 /* Person+Extenson2.m */,
 			);
@@ -94,6 +92,8 @@
 		BDD22C061F46EAD800F32700 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDD36FAD1F47F50300856972 /* Person+Extension1.h */,
+				BDD36FAE1F47F50300856972 /* Person+Extension1.m */,
 				BDD22C071F46EAD800F32700 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -170,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD36FAF1F47F50300856972 /* Person+Extension1.m in Sources */,
 				BDD22C221F46EB8E00F32700 /* Son.m in Sources */,
 				BDD22C1F1F46EAFB00F32700 /* Person.m in Sources */,
 				BDD36FAC1F47C53A00856972 /* Person+Extenson2.m in Sources */,
-				BDD36FA91F47C52700856972 /* Person+Extension1.m in Sources */,
 				BDD22C081F46EAD800F32700 /* main.m in Sources */,
 				BDD22C0E1F46EAD800F32700 /* ViewController.m in Sources */,
 				BDD22C0B1F46EAD800F32700 /* AppDelegate.m in Sources */,
